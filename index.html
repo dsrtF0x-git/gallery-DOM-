@@ -3,22 +3,15 @@
 <head>
   <title>Галерея</title>
   <meta charset="utf-8">
-  <style>
-    li {
-      display: inline-block;
-    }
-    
-    ul {
-      padding-left: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-
-  <p><img id="largeImg" src="https://en.js.cx/gallery/img1-lg.jpg" alt="Large image"></p>
+  <p>
+    <img id="largeImg" src="https://en.js.cx/gallery/img1-lg.jpg" alt="Large image">
+  </p>
 
   <ul id="thumbs">
-    <!-- браузер показывает небольшую встроенную подсказку из атрибута "title" при наведении курсора на текст -->
     <li>
       <a href="https://en.js.cx/gallery/img2-lg.jpg" title="Image 2"><img src="https://en.js.cx/gallery/img2-thumb.jpg"></a>
     </li>
@@ -35,6 +28,5 @@
       <a href="https://en.js.cx/gallery/img6-lg.jpg" title="Image 6"><img src="https://en.js.cx/gallery/img6-thumb.jpg"></a>
     </li>
   </ul>
-  <script src="script.js"></script>
 </body>
 </html>
